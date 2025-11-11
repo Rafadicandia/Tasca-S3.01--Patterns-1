@@ -1,6 +1,6 @@
-public abstract class SpainAddres implements Address, PhoneNumber {
+public class SpainAddres implements Address {
     @Override
-    public String getAddress(String address) {
+    public String getAddress() {
         return "";
     }
 

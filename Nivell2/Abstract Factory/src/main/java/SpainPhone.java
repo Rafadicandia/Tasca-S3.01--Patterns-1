@@ -1,6 +1,6 @@
-public abstract class SpainPhone implements PhoneNumber{
+public class SpainPhone implements PhoneNumber {
     @Override
-    public String getPhoneNumber(String phone) {
-        return "+34 "+phone;
+    public String getPhoneNumber() {
+        return "+34 " + phone;
     }
 }
