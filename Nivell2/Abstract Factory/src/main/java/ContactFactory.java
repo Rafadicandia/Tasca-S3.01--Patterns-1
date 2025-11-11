@@ -1,4 +1,4 @@
 public interface ContactFactory {
-    public String createAddress();
-    public String createPhoneNumber();
+    public Address createAddress();
+    public PhoneNumber createPhoneNumber();
 }
