@@ -39,10 +39,6 @@ public class Undo {
         for (String command : this.commandHistory) {
             System.out.println(index + "-" + command);
             index++;
-
         }
-
     }
-
-
 }
