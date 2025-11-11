@@ -4,8 +4,5 @@ public abstract class SpainAddres implements Address, PhoneNumber {
         return "";
     }
 
-    @Override
-    public String getPhoneNumber(String phone) {
-        return "+34 "+phone;
-    }
+
 }
