@@ -27,9 +27,8 @@ public class Undo {
             return "There are no commands to erase";
         }
 
-        this.commandHistory.removeFirst();
-
-        return this.commandHistory.getFirst();
+        String lastCommand = this.commandHistory.removeFirst();
+        return "Undo command: '" + lastCommand + "'";
     }
 
     public <T> void listCommands() {
