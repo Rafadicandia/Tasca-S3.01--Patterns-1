@@ -9,7 +9,7 @@ public class Undo {
         this.commandHistory = new ArrayDeque<>();
     }
 
-    public static Object getInstance() {
+    public static Undo getInstance() {
         if (Undo.uniqueInstance == null) {
             Undo.uniqueInstance = new Undo();
         }
@@ -34,9 +34,11 @@ public class Undo {
     public void listCommands() {
         System.out.println("--- Command History ---");
 
-        int indexStart = 1;
+        int index = 1;
 
-        for(String Command : this.commandHistory){
+        for(String command : this.commandHistory){
+            System.out.println(index + "-" + command);
+            index ++;
 
         }
 
