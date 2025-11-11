@@ -31,11 +31,15 @@ public class Undo {
         return "Undo command: '" + lastCommand + "'";
     }
 
-    public <T> void listCommands() {
+    public void listCommands() {
+        System.out.println("--- Command History ---");
 
+        int indexStart = 1;
 
-        for (String t : this.commandHistory)
-            toString().accept(t);
+        for(String Command : this.commandHistory){
+
+        }
+
     }
 
 
