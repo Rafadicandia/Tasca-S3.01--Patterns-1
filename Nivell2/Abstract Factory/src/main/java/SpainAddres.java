@@ -1,6 +1,11 @@
 public class SpainAddres implements Address {
     private String street;
-    private int doorNumber;
+    private int number;
+    private String door;
+    private String floor;
+    private String postalCode;
+    private String city;
+    private String region;
 
     public SpainAddres(String street, ) {
         this.street = street;
@@ -8,7 +13,13 @@ public class SpainAddres implements Address {
 
     @Override
     public String getAddress() {
-        return street + doorNumber + floor;
+        return "Street: " + street +". "
+                +"Number: "+number + ". "
+                +"Floor: "+floor + ". "
+                +"Door: "+door + ". "
+                +"Postal Code: "+postalCode+". "
+                +"City: "+city + ". "
+                +"Region: "+region;
     }
 
 

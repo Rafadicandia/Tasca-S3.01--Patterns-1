@@ -8,6 +8,6 @@ public class SpainPhone implements PhoneNumber {
 
     @Override
     public String getPhoneNumber() {
-        return "+34 " + number;
+        return "+34 " + this.number;
     }
 }
