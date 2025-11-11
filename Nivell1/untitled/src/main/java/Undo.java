@@ -22,7 +22,7 @@ public class Undo {
 
     }
 
-    public String undo(String command) {
+    public String undo() {
         if (this.commandHistory.isEmpty()) {
             return "There are no commands to erase";
         }
@@ -33,9 +33,10 @@ public class Undo {
     }
 
     public <T> void listCommands() {
-        
+
+
         for (String t : this.commandHistory)
-            toString().indent(t);
+            toString().accept(t);
     }
 
 
