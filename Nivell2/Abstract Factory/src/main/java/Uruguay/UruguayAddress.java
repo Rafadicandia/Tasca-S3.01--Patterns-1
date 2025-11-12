@@ -9,10 +9,10 @@ public class UruguayAddress implements Address {
     private String floor;
     private String postalCode;
     private String city;
-    private String region;
+    private String country;
 
 
-    public UruguayAddress(String street, int number, String door, String floor, String postalCode, String city, String region) {
+    public UruguayAddress(String street, int number, String door, String floor, String postalCode, String city, String country) {
         if (street == (null) || street.isBlank()) {
             throw new IllegalArgumentException("The street can't be null nor empty");
         }
@@ -29,7 +29,7 @@ public class UruguayAddress implements Address {
             throw new IllegalArgumentException("The City can't be null nor empty");
         }
 
-        if (region == (null) || region.isBlank()) {
+        if (country == (null) || country.isBlank()) {
             throw new IllegalArgumentException("The City can't be null nor empty");
         }
 
@@ -49,7 +49,7 @@ public class UruguayAddress implements Address {
         this.number = number;
         this.postalCode = postalCode;
         this.city = city;
-        this.region = region;
+        this.country = country;
     }
 
     @Override
@@ -58,9 +58,9 @@ public class UruguayAddress implements Address {
                 + "Number: " + this.number + ". "
                 + "Floor: " + this.floor + ". "
                 + "Door: " + this.door + ". "
-                + "Postal Code: " + this.postalCode + ". "
                 + "City: " + this.city + ". "
-                + "Region: " + this.region;
+                + "Postal Code: " + this.postalCode + ". "
+                + "Region: " + this.country;
     }
 
 
