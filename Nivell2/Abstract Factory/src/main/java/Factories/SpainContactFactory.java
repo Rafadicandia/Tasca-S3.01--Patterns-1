@@ -3,6 +3,8 @@ package Factories;
 import Interfaces.Address;
 import Interfaces.ContactFactory;
 import Interfaces.PhoneNumber;
+import Spain.SpainAddress;
+import Spain.SpainPhone;
 
 public class SpainContactFactory implements ContactFactory {
 
