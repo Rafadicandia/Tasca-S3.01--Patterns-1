@@ -1,9 +1,9 @@
 import Interfaces.Address;
 import Interfaces.PhoneNumber;
 import Interfaces.NameAndLastName;
-import Factories.FullName;
+import Interfaces.Contact;
 
-public class Contact {
+public class Contact implements Contact {
     private NameAndLastName nameDetails;
     private Address address;
     private PhoneNumber phone;

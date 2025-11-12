@@ -4,5 +4,4 @@ public interface ContactFactory {
     public Address createAddress();
     public PhoneNumber createPhoneNumber();
     public NameAndLastName createFullName();
-    public Contact createContact();
 }

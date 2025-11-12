@@ -1,5 +1,6 @@
 import Interfaces.*;
 
+
 public class Client {
     private ContactFactory factory;
     private Address address;
@@ -12,7 +13,7 @@ public class Client {
         this.address = factory.createAddress();
         this.phone = factory.createPhoneNumber();
         this.name = factory.createFullName();
-        this.contact = factory.createContact();
+
 
     }
 }
