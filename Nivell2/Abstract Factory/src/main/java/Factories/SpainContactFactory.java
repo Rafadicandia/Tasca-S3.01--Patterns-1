@@ -1,4 +1,10 @@
-public class SpainContactFactory implements ContactFactory{
+package Factories;
+
+import Interfaces.Address;
+import Interfaces.ContactFactory;
+import Interfaces.PhoneNumber;
+
+public class SpainContactFactory implements ContactFactory {
 
     @Override
     public Address createAddress() {

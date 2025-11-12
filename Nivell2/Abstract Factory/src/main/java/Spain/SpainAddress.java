@@ -1,3 +1,7 @@
+package Spain;
+
+import Interfaces.Address;
+
 public class SpainAddress implements Address {
     private String street;
     private int number;

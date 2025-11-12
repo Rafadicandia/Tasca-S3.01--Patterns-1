@@ -1,3 +1,7 @@
+package Spain;
+
+import Interfaces.PhoneNumber;
+
 public class SpainPhone implements PhoneNumber {
     private String number;
 
