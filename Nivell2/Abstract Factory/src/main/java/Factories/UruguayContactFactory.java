@@ -1,6 +1,7 @@
 package Factories;
 
 import Interfaces.Address;
+import Interfaces.Contact;
 import Interfaces.ContactFactory;
 import Interfaces.PhoneNumber;
 import Uruguay.UruguayAddress;
@@ -17,4 +18,10 @@ public class UruguayContactFactory implements ContactFactory {
     public PhoneNumber createPhoneNumber() {
         return new UruguayPhone("09898312416");
     }
+
+    @Override
+    public Contact createContact() {
+        return new Contact("Rafael", "di Candia");
+    }
+
 }

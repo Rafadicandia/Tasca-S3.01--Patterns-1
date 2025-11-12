@@ -1,6 +1,6 @@
-import Interfaces.ContactFactory;
 
-public class Contact implements Interfaces.Contact {
+
+public class Contact implements Contact {
     private String name;
     private String lastName;
 

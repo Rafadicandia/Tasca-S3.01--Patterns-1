@@ -2,15 +2,17 @@ import Interfaces.Address;
 import Interfaces.ContactFactory;
 import Interfaces.PhoneNumber;
 
-public class Cliente {
+public class Client {
     private ContactFactory factory;
     private Address address;
     private PhoneNumber phone;
+    private Contact name;
 
-    public Cliente(ContactFactory factory) {
+    public Client(ContactFactory factory) {
         this.factory = factory;
         this.address = factory.createAddress();
         this.phone = factory.createPhoneNumber();
+        this.name = factory.createContact();
 
     }
 }
