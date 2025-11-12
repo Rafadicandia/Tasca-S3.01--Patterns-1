@@ -3,5 +3,5 @@ package Interfaces;
 public interface ContactFactory {
     public Address createAddress();
     public PhoneNumber createPhoneNumber();
-    public Contact createContact();
+    public NameAndLastName createContact();
 }

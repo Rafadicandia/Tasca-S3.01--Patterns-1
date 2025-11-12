@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
 public class Directory {
-    private ArrayList<Contact> contacts;
+    private ArrayList<ContactName> contactNames;
 
-    public Directory(ArrayList<Contact> contacts){
-        this.contacts = contacts;
+    public Directory(ArrayList<ContactName> contactNames){
+        this.contactNames = contactNames;
     }
 
-    public ArrayList<Contact> getContacts() {
-        return contacts;
+    public ArrayList<ContactName> getContacts() {
+        return contactNames;
     }
 }
