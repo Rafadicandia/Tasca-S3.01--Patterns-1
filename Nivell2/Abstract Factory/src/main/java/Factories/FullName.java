@@ -1,3 +1,5 @@
+package Factories;
+
 import Interfaces.NameAndLastName;
 
 public class FullName implements NameAndLastName {
@@ -11,8 +13,8 @@ public class FullName implements NameAndLastName {
 
     @Override
     public String getFullName() {
-        return "Contact name: "+name
-                +"-"+
-                "Contact last name: "+lastName;
+        return "Contact name: " + name
+                + "-" +
+                "Contact last name: " + lastName;
     }
 }

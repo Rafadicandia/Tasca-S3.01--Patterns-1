@@ -1,10 +1,8 @@
 package Factories;
-import Interfaces.Address;
-import Interfaces.NameAndLastName;
-import Interfaces.ContactFactory;
-import Interfaces.PhoneNumber;
+import Interfaces.*;
 import Spain.SpainAddress;
 import Spain.SpainPhone;
+
 
 public class SpainContactFactory implements ContactFactory {
 
@@ -17,10 +15,15 @@ public class SpainContactFactory implements ContactFactory {
     public PhoneNumber createPhoneNumber() {
         return new SpainPhone("634330718");
     }
+    @Override
+    public NameAndLastName createFullName() {
+        return new FullName("Rafael", "di Candia");
+    }
 
     @Override
-    public NameAndLastName createContact() {
-        return new ContactName("Rafael", "di Candia");
+    public Contact createContact() {
+
+        return ;
     }
 
 

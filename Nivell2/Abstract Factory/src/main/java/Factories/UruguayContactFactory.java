@@ -20,8 +20,8 @@ public class UruguayContactFactory implements ContactFactory {
     }
 
     @Override
-    public NameAndLastName createContact() {
-        return new ContactName("Rafael", "di Candia");
+    public NameAndLastName createFullName() {
+        return new FullName("Rafael", "di Candia");
     }
 
 }
