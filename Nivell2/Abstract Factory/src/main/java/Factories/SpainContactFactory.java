@@ -17,4 +17,11 @@ public class SpainContactFactory implements ContactFactory {
     public PhoneNumber createPhoneNumber() {
         return new SpainPhone("634330718");
     }
+
+    @Override
+    public Contact createContact() {
+        return new Contact();
+    }
+
+
 }
