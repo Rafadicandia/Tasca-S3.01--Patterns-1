@@ -20,10 +20,10 @@ public class Directory {
 
     public void addContact(ContactGenerator contactGenerator) {
         this.contactGeneratorNamesAndAdddresses.add(contactGenerator);
-        System.out.println("Contact added: "+ contactGenerator.getContactDetails());
+        System.out.println("--Contact added-- " + "\n"
+                + contactGenerator.getContactDetails());
 
     }
-
 
 
 }

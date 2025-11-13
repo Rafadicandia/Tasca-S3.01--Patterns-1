@@ -20,7 +20,7 @@ public class ContactGenerator implements Interfaces.Contact{
 
     public String getContactDetails() {
         return nameDetails.getFullName() +
-                "\n  Dirección: " + address.getAddress() +
-                "\n  Teléfono: " + phone.getPhoneNumber();
+                "\n  Direction: " + address.getAddress() +
+                "\n  Phone: " + phone.getPhoneNumber();
     }
 }

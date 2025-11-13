@@ -60,7 +60,7 @@ public class UruguayAddress implements Address {
                 + "Door: " + this.door + ". "
                 + "City: " + this.city + ". "
                 + "Postal Code: " + this.postalCode + ". "
-                + "Region: " + this.country;
+                + "Country: " + this.country;
     }
 
 
