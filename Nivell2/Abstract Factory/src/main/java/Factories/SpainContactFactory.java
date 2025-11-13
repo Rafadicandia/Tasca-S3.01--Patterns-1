@@ -9,29 +9,25 @@ import Spain.SpainPhone;
 public class SpainContactFactory implements ContactFactory {
 
     @Override
-    public Address createAddress() {
-        return new SpainAddress("Carretera de Rubí", 135, "3", "2", "08223", "Terrassa", "Catalunya");
+    public Contact createContact(
+            String name, String lastName,
+            String phoneNumber,
+            String street, int number, String door, String floor,
+            String postalCode, String city, String region
+    ) {
+
+        NameAndLastName fullName = new FullName(name, lastName);
+
+
+        PhoneNumber phone = new SpainPhone(phoneNumber);
+
+        Address address = new SpainAddress(
+                street, number, door, floor, postalCode, city, region
+        );
+
+
+        return new Contact(fullName, address, phone);
     }
-
-    @Override
-    public PhoneNumber createPhoneNumber() {
-
-        return new SpainPhone("634330718");
-    }
-
-    @Override
-    public NameAndLastName createFullName() {
-
-        return new FullName("Rafael", "di Candia");
-    }
-
-    Contact spanishContact = new Contact() {
-        @Override
-        public String getContactDetails() {
-            return "";
-        }
-    }
-
 
 }
 

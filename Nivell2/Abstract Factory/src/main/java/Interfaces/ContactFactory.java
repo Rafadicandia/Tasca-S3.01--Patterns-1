@@ -1,6 +1,7 @@
 package Interfaces;
 
 public interface ContactFactory {
+
     public Contact createContact(
             String name,
             String lastName,
@@ -11,6 +12,8 @@ public interface ContactFactory {
             String floor,
             String postalCode,
             String city,
-            String region
+            String region,
+            String country
     );
+
 }
