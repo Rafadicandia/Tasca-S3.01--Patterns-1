@@ -1,5 +1,6 @@
 package Factories;
 
+import Domain.FullName;
 import Interfaces.*;
 import Spain.SpainAddress;
 import Spain.SpainPhone;

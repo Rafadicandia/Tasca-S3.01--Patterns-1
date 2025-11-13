@@ -1,4 +1,4 @@
-package Factories;
+package Domain;
 
 import Interfaces.NameAndLastName;
 

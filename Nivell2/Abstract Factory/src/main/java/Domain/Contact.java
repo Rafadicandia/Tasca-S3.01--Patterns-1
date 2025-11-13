@@ -1,7 +1,6 @@
-import Interfaces.Address;
-import Interfaces.PhoneNumber;
-import Interfaces.NameAndLastName;
-import Interfaces.Contact;
+package Domain;
+
+
 
 public class Contact {
     private NameAndLastName nameDetails;
