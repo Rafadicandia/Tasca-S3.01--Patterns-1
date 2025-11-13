@@ -3,7 +3,7 @@ import Interfaces.PhoneNumber;
 import Interfaces.NameAndLastName;
 import Interfaces.Contact;
 
-public class Contact implements Contact {
+public class Contact {
     private NameAndLastName nameDetails;
     private Address address;
     private PhoneNumber phone;

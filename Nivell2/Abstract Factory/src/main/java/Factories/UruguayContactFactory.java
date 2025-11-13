@@ -5,6 +5,8 @@ import Uruguay.UruguayAddress;
 import Uruguay.UruguayPhone;
 
 public class UruguayContactFactory implements ContactFactory {
+    private String name;
+    private String lastName;
 
     @Override
     public Address createAddress() {

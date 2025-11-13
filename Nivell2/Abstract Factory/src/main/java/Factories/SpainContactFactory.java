@@ -8,8 +8,8 @@ import Spain.SpainPhone;
 public class SpainContactFactory implements ContactFactory {
 
     @Override
-    public Address createAddress() {
-        return new SpainAddress("Carretera de Rubí", 135, "3", "2", "08223", "Terrassa", "Catalunya");
+    public Address createAddress(String street, int number, String door, String floor, String postalCode, String city, String region) {
+        return new SpainAddress(street, number, door, floor, postalCode, city, region);
     }
 
     @Override
