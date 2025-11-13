@@ -1,6 +1,16 @@
 package Interfaces;
 
 public interface Contact {
-    public String getContactDetails();
-
+    public Contact createContact(
+            String name,
+            String lastName,
+            String phoneNumber,
+            String street,
+            int number,
+            String door,
+            String floor,
+            String postalCode,
+            String city,
+            String region
+    );
 }

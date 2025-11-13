@@ -24,7 +24,12 @@ public class SpainContactFactory implements ContactFactory {
         return new FullName("Rafael", "di Candia");
     }
 
-
+    Contact spanishContact = new Contact() {
+        @Override
+        public String getContactDetails() {
+            return "";
+        }
+    }
 
 
 }

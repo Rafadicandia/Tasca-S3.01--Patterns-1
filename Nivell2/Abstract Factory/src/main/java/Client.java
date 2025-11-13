@@ -16,4 +16,14 @@ public class Client {
 
 
     }
+
+
+    public static void main(String[] args) {
+        Directory newDirectory = new Directory("Prueba");
+
+
+
+
+
+    }
 }
