@@ -1,5 +1,6 @@
 package Factories;
 
+import Domain.ContactGenerator;
 import Domain.FullName;
 import Interfaces.*;
 import Spain.SpainAddress;
@@ -10,10 +11,17 @@ public class SpainContactFactory implements ContactFactory {
 
     @Override
     public Contact createContact(
-            String name, String lastName,
+            String name,
+            String lastName,
             String phoneNumber,
-            String street, int number, String door, String floor,
-            String postalCode, String city, String region
+            String street,
+            int number,
+            String door,
+            String floor,
+            String postalCode,
+            String city,
+            String region,
+            String country
     ) {
 
         NameAndLastName fullName = new FullName(name, lastName);
@@ -26,7 +34,7 @@ public class SpainContactFactory implements ContactFactory {
         );
 
 
-        return new Contact(fullName, address, phone);
+        return new ContactGenerator(fullName, address, phone);
     }
 
 }

@@ -2,16 +2,16 @@ package Domain;
 import Interfaces.Address;
 import Interfaces.PhoneNumber;
 import Interfaces.NameAndLastName;
-import Interfaces.Contact;
 
 
-public class Contact implements Interfaces.Contact{
+
+public class ContactGenerator implements Interfaces.Contact{
     private NameAndLastName nameDetails;
     private Address address;
     private PhoneNumber phone;
 
 
-    public Contact(NameAndLastName nameDetails, Address address, PhoneNumber phone) {
+    public ContactGenerator(NameAndLastName nameDetails, Address address, PhoneNumber phone) {
         this.nameDetails = nameDetails;
         this.address = address;
         this.phone = phone;

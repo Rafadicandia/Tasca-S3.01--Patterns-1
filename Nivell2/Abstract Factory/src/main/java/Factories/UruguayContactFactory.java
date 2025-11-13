@@ -1,4 +1,5 @@
 package Factories;
+import Domain.ContactGenerator;
 import Domain.FullName;
 import Interfaces.*;
 import Uruguay.UruguayAddress;
@@ -31,7 +32,7 @@ public class UruguayContactFactory implements ContactFactory {
         );
 
 
-        return new Contact(fullName, address, phone);
+        return new ContactGenerator(fullName, address, phone);
     }
 
 }

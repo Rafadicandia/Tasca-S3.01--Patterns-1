@@ -1,26 +1,26 @@
 package Application;
 
-import Domain.Contact;
+import Domain.ContactGenerator;
 
 import java.util.ArrayList;
 
 public class Directory {
 
-    private ArrayList<Contact> contactNamesAndAdddress;
+    private ArrayList<ContactGenerator> contactGeneratorNamesAndAdddresses;
 
     public Directory() {
 
-        this.contactNamesAndAdddress = new ArrayList<>();
+        this.contactGeneratorNamesAndAdddresses = new ArrayList<>();
     }
 
-    public ArrayList<Contact> getContacts() {
+    public ArrayList<ContactGenerator> getContacts() {
 
-        return contactNamesAndAdddress;
+        return contactGeneratorNamesAndAdddresses;
     }
 
-    public void addContact(Contact contact) {
-        this.contactNamesAndAdddress.add(contact);
-        System.out.println("Contact added: "+contact.getContactDetails());
+    public void addContact(ContactGenerator contactGenerator) {
+        this.contactGeneratorNamesAndAdddresses.add(contactGenerator);
+        System.out.println("Contact added: "+ contactGenerator.getContactDetails());
 
     }
 

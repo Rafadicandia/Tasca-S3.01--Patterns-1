@@ -3,7 +3,7 @@ package Application;
 import Factories.SpainContactFactory;
 import Factories.UruguayContactFactory;
 import Interfaces.ContactFactory;
-import Domain.Contact; // Necesario para la instancia de Contact
+import Domain.ContactGenerator;
 
 public class Client {
 
@@ -16,15 +16,26 @@ public class Client {
         ContactFactory spainFactory = new SpainContactFactory();
 
 
-        Contact c1 = spainFactory.createContact(
+        Interfaces.Contact c1 = spainFactory.createContact(
+                "Pedro",
+                "Sanchez",
+                "634330718",
+                "Moncloa",
+                456,
+                "4",
+                "4",
+                "0975",
+                "Madrid",
+                "Madrid",
+                "Spain"
                 );
-        agenda.addContact(c1);
+        agenda.addContact((ContactGenerator) c1);
 
 
         ContactFactory uruguayFactory = new UruguayContactFactory();
 
 
-        Contact c2 = uruguayFactory.createContact(
+        Interfaces.Contact c2 = uruguayFactory.createContact(
                 "Rafael",
                 "di Candia",
                 "098312416",
@@ -36,7 +47,7 @@ public class Client {
                 "Montevideo",
                 "Montevideo",
                 "Uruguay");
-        agenda.addContact(c2);
+        agenda.addContact((ContactGenerator) c2);
 
 
         agenda.getContacts();
