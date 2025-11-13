@@ -1,7 +1,16 @@
 package Interfaces;
 
 public interface ContactFactory {
-    public Address createAddress();
-    public PhoneNumber createPhoneNumber();
-    public NameAndLastName createFullName();
+    public Contact createContact(
+            String name,
+            String lastName,
+            String phoneNumber,
+            String street,
+            int number,
+            String door,
+            String floor,
+            String postalCode,
+            String city,
+            String region
+    );
 }
