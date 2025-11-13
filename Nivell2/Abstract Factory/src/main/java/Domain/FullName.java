@@ -13,8 +13,9 @@ public class FullName implements NameAndLastName {
 
     @Override
     public String getFullName() {
-        return "Contact name: " + name
-                + "-" +
-                "Contact last name: " + lastName;
+        return "Name: " + name
+                + " "
+                +lastName;
+
     }
 }
