@@ -1,8 +1,11 @@
 package Domain;
+import Interfaces.Address;
+import Interfaces.PhoneNumber;
+import Interfaces.NameAndLastName;
+import Interfaces.Contact;
 
 
-
-public class Contact {
+public class Contact implements Interfaces.Contact{
     private NameAndLastName nameDetails;
     private Address address;
     private PhoneNumber phone;
