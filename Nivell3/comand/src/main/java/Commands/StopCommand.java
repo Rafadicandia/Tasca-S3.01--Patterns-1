@@ -1,5 +1,8 @@
 package Commands;
 
+
+import Vehicles.Vehicle;
+
 public class StopCommand implements Command {
     private Vehicle vehicleToStop;
 

@@ -14,13 +14,13 @@ public class Bike extends Vehicle {
 
     @Override
     public void start() {
-        System.out.println("The bike is accelerating");
+        System.out.println("The bike is starting");
 
     }
 
     @Override
     public void stop() {
-        System.out.println("The bike is accelerating");
+        System.out.println("The bike is stopping");
 
     }
 }
