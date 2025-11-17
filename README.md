@@ -44,6 +44,8 @@ Integrated Development Environment (IDE): IntelliJ IDEA (recommended) or any oth
 Clone the Repository:
 
 git clone https://github.com/Rafadicandia/Tasca-S3.01--Patterns-1.git
+
+
 IDE Configuration:
 
 Open the folder as a Maven project in your IDE. The IDE should automatically download the necessary dependencies (JUnit 5) defined in the pom.xml file.
@@ -53,7 +55,9 @@ Build the Project:
 To ensure all dependencies are resolved and the project compiles correctly, you can run the following command in the terminal from the project root:
 
 mvn clean install
+
 ▶️ Execution
+
 ⚙️ Execute from the IDE
 
 🤝 Contributions
