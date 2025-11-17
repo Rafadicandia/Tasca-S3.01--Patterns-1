@@ -12,11 +12,11 @@ public class Ship extends Vehicle {
 
     @Override
     public void start() {
-        System.out.println("The ship is accelerating");
+        System.out.println("The ship is starting");
     }
 
     @Override
     public void stop() {
-        System.out.println("The ship is accelerating");
+        System.out.println("The ship is stopping");
     }
 }
