@@ -29,6 +29,8 @@ Design a parking lot for 4 vehicles: a car, a bicycle, a plane, and a boat.
 Technology	Version	Description
 Java	24 (OpenJDK)	Language and environment for development.
 Apache Maven	3.9.6 (or higher)	Build automation and project management tool.
+
+
 📋 Requirements
 Operating System: Windows/macOS/Linux.
 
