@@ -1,3 +1,5 @@
+package Vehicles;
+
 public class Ship extends Vehicle {
     public Ship(String type) {
         super(type);

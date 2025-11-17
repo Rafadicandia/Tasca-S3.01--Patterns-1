@@ -1,3 +1,5 @@
+package Commands;
+
 public class StopCommand implements Command {
     private Vehicle vehicleToStop;
 

@@ -1,3 +1,5 @@
+package Commands;
+
 public class AccelerateCommand implements Command {
     private Vehicle vehicleToAccelerate;
 
