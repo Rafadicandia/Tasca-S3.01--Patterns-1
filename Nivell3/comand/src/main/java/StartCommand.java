@@ -1,8 +1,8 @@
-public class StartCommand implements Command{
+public class StartCommand implements Command {
     private Vehicle vehicleToStart;
 
-    public StartCommand(Vehicle vehicleToStart){
-        this.vehicleToStart=vehicleToStart;
+    public StartCommand(Vehicle vehicleToStart) {
+        this.vehicleToStart = vehicleToStart;
     }
 
 
