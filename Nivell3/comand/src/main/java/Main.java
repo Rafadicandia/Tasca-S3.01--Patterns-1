@@ -37,7 +37,7 @@ public class Main {
 
         System.out.println("--Parking  commands starts--");
 
-        System.out.println("--Parking> Procedes to move Bike--");
+        System.out.println("--Parking> Proceedes to move Bike--");
 
         newParking.setCommand(bikeStart);
         newParking.executeCommand();
@@ -46,7 +46,7 @@ public class Main {
         newParking.setCommand(bikeStop);
         newParking.executeCommand();
 
-        System.out.println("--Parking> Procedes to move Car--");
+        System.out.println("--Parking> Proceedes to move Car--");
 
         newParking.setCommand(carStart);
         newParking.executeCommand();
@@ -55,7 +55,7 @@ public class Main {
         newParking.setCommand(carStop);
         newParking.executeCommand();
 
-        System.out.println("--Parking> Procedes to move Plane--");
+        System.out.println("--Parking> Proceedes to move Plane--");
 
         newParking.setCommand(planeStart);
         newParking.executeCommand();
@@ -64,7 +64,7 @@ public class Main {
         newParking.setCommand(planeStop);
         newParking.executeCommand();
 
-        System.out.println("--Parking> Procedes to move Ship--");
+        System.out.println("--Parking> Proceedes to move Ship--");
 
         newParking.setCommand(shipStart);
         newParking.executeCommand();
