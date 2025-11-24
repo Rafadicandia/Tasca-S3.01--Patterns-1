@@ -23,42 +23,39 @@ Design a parking lot for 4 vehicles: a car, a bicycle, a plane, and a boat.
 * Demonstrate how the **Command pattern** works by implementing the methods **start**, **accelerate**, and **brake** for each type of vehicle.
 
 ***
+## 💻 Used Technologies
+| Technology | Version      | Description |
+| :--- |:-------------| :--- |
+| **Java** | **[24.0.1]** | Language and environment for development. |
+| **Gradle** | **[9.2.0]**  | Build automation and project management tool. |
 
+## 📋 Requirements
+* Operating System: Windows/macOS/Linux.
+* Java Development Kit (JDK): Minimum version **openjdk-24**.
+* **Gradle:** Installed and configured in the system PATH.
 
-💻 Used Technologies
-Technology	Version	Description
-Java	24 (OpenJDK)	Language and environment for development.
-Apache Maven	3.9.6 (or higher)	Build automation and project management tool.
+## 🛠️ Installation
+1.  **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Rafadicandia/Tasca-S3.01--Patterns-1.git
+    ```
+2.  **IDE Configuration:**
+    Open the folder as a **Gradle** project in your IDE (e.g., IntelliJ IDEA, VS Code). The IDE should automatically synchronize the project and download dependencies defined in the `build.gradle` or `build.gradle.kts` file.
 
+3.  **Build the Project:**
+    To ensure all dependencies are resolved and the project compiles correctly, use the *Gradle Wrapper* by running the following command in the terminal from the project root:
+    ```bash
+    ./gradlew build
+    # Or on Windows:
+    # gradlew build
+    ```
 
-📋 Requirements
-Operating System: Windows/macOS/Linux.
+## ▶️ Execution
+Execute the main class (`Main`) for each level to see the design patterns in action. You can do this from your IDE or by using the Gradle `run` command (if a `main` task is configured):
 
-Java Development Kit (JDK): Version 24.0.1 (or higher). It is recommended to use an OpenJDK distribution.
+```bash
+./gradlew run
+```
 
-Apache Maven: Installed and configured in the system PATH.
-
-Integrated Development Environment (IDE): IntelliJ IDEA (recommended) or any other IDE with Maven support.
-
-🛠️ Installation
-Clone the Repository:
-
-git clone https://github.com/Rafadicandia/Tasca-S3.01--Patterns-1.git
-
-
-IDE Configuration:
-
-Open the folder as a Maven project in your IDE. The IDE should automatically download the necessary dependencies (JUnit 5) defined in the pom.xml file.
-
-Build the Project:
-
-To ensure all dependencies are resolved and the project compiles correctly, you can run the following command in the terminal from the project root:
-
-mvn clean install
-
-▶️ Execution
-
-⚙️ Execute from the IDE
-
-🤝 Contributions
-Contributions are welcome. Please report any bugs by opening an issue or suggest improvements via a clear and concise Pull Request.
+## 🤝 Contributions
+Contributions are welcome. Please report any bugs by opening an issue or suggest improvements via a clear and concise Pull Request.welcome. Please report any bugs by opening an issue or suggest improvements via a clear and concise Pull Request.
